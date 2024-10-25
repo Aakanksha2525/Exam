@@ -1,49 +1,11 @@
+Click the + icon at the top right and select New repository.
+Name the repository (e.g., Practical), set the visibility (public/private), and initialize it with a README file (optional but recommended).
+Click Create repository.
 $ cd /c/Aakanksha_Upadhyay
-
-hp@LAPTOP-ORMT4JEO MINGW64 /c/Aakanksha_Upadhyay
-$ git clone https://github.com/Aakanksha2525/Exam.git
-Cloning into 'Exam'...
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-Receiving objects: 100% (3/3), done.
-
-hp@LAPTOP-ORMT4JEO MINGW64 /c/Aakanksha_Upadhyay
+ git clone https://github.com/Aakanksha2525/Exam.git
 $ cd Exam
-
-hp@LAPTOP-ORMT4JEO MINGW64 /c/Aakanksha_Upadhyay/Exam (main)
 $ git add .
-
-hp@LAPTOP-ORMT4JEO MINGW64 /c/Aakanksha_Upadhyay/Exam (main)
-$ git commit -m "practical"
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
-
-hp@LAPTOP-ORMT4JEO MINGW64 /c/Aakanksha_Upadhyay/Exam (main)
-$ git push -u origin main
-fatal: User cancelled dialog.
-error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
-Username for 'https://github.com':
-error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
-Password for 'https://github.com':
-
-hp@LAPTOP-ORMT4JEO MINGW64 /c/Aakanksha_Upadhyay/Exam (main)
 $ touch practical_file.txt
-
-hp@LAPTOP-ORMT4JEO MINGW64 /c/Aakanksha_Upadhyay/Exam (main)
 $ git add .
-
-hp@LAPTOP-ORMT4JEO MINGW64 /c/Aakanksha_Upadhyay/Exam (main)
 $ git commit -m "Added practical files"
-[main 177674a] Added practical files
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 practical_file.txt
-
-hp@LAPTOP-ORMT4JEO MINGW64 /c/Aakanksha_Upadhyay/Exam (main)
 $ git push origin main
-fatal: User cancelled dialog.
-error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
-Password for 'https://github.com':
-
